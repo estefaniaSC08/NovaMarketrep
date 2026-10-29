@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calzado | NovaMarket</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --morado: #8028eb;
+            --morado-claro: #a855f7;
+            --morado-btn: #8028eb;
+            --morado-oscuro: #1d0733;
+            --fondo: #f6f5f8;
+        }
+
+        body {
+            background-color: var(--fondo);
+            color: #212529;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* BARRA SUPERIOR */
+        .top-bar {
+            background-color: #7928ca;
+            color: white;
+            font-size: 0.82rem;
+            padding: 0.35rem 0;
+        }
+
+        .top-bar a {
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+        }
+
+        .top-bar a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .user-avatar {
+            width: 22px;
+            height: 22px;
+            background: rgba(255, 255, 255, 0.25);
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.65rem;
+            font-weight: bold;
+        }
+
+        /* ENCABEZADO PRINCIPAL */
+        .header-principal {
+            background-color: #fff;
+            padding: 0.8rem 0;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        .logo {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #7928ca;
+            text-decoration: none;
+            line-height: 1;
+        }
+
+        .buscador {
+            display: flex;
+            width: 100%;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            border: 2px solid #7928ca;
+        }
+
+        .buscador input {
+            width: 100%;
+            min-width: 0;
+            padding: 0.5rem 0.9rem;
+            border: none;
+            outline: none;
+            background: #fff;
+            font-size: 0.9rem;
+        }
+
+        .boton-buscar {
+            color: white;
+            background: #7928ca;
+            padding: 0.5rem 1.1rem;
+            border-radius: 0;
+            border: none;
+        }
+
+        .opcion-header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #7928ca;
+            font-size: 0.75rem;
+            cursor: pointer;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .opcion-header i {
+            font-size: 1.35rem;
+        }
+
+        /* MENÚ CATEGORÍAS */
+        .menu-categorias {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 0;
+        }
+
+        .menu-categorias .navbar-nav {
+            gap: 1.5rem;
+        }
+
+        .menu-categorias .nav-link {
+            color: #555;
+            padding: 0.8rem 0;
+            font-weight: 500;
+            font-size: 0.9rem;
+            position: relative;
+        }
+
+        .menu-categorias .nav-link:hover {
+            color: #7928ca;
+        }
+
+        .menu-categorias .nav-link.active {
+            color: #7928ca;
+            font-weight: 600;
+        }
+
+        .menu-categorias .nav-link.active::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: -5px;
+            right: -5px;
+            height: 3px;
+            background-color: #7928ca;
+            border-radius: 3px 3px 0 0;
+        }
+
+        /* BANNER CALZADO */
+        .banner-principal {
+            min-height: 22rem;
+            margin: 1.5rem 0;
+            border-radius: 1rem;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            align-items: center;
+            color: white;
+            background:
+                linear-gradient(90deg,
+                    #17052c 0%,
+                    #1d0738 45%,
+                    rgba(29, 7, 56, 0.85) 60%,
+                    rgba(29, 7, 56, 0.2) 100%),
+                url("https://images.unsplash.com/photo-1542998077-92f4ca2b0b74?auto=format&fit=crop&w=1800&q=85") center right / cover no-repeat;
+            box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+        }
+
+        .banner-contenido {
+            max-width: 36rem;
+            padding: clamp(1.5rem, 4vw, 3.5rem);
+            z-index: 2;
+        }
+
+        .badge-oferta {
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            padding: 0.35rem 0.8rem;
+            border-radius: 0.4rem;
+            font-size: 0.78rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        .banner-principal h1 {
+            font-size: clamp(2.1rem, 4.2vw, 3.5rem);
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            line-height: 1.1;
+        }
+
+        .boton-ver-oferta {
+            background-color: #c48eff;
+            color: #1d0738;
+            border: none;
+            border-radius: 1.5rem;
+            padding: 0.65rem 1.6rem;
+            font-weight: 700;
+            font-size: 0.95rem;
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+
+        /* SECCIÓN DE PRODUCTOS Y FILTROS */
+        .panel-filtros {
+            background: #fff;
+            border-radius: 0.8rem;
+            padding: 1.2rem;
+            box-shadow: 0 0.15rem 0.8rem rgba(0, 0, 0, 0.04);
+            border: none;
+        }
+
+        .form-range::-webkit-slider-thumb {
+            background: var(--morado);
+        }
+
+        .form-check-input:checked {
+            background-color: var(--morado);
+            border-color: var(--morado);
+        }
+
+        /* TARJETAS DE PRODUCTO AVANZADAS */
+        .tarjeta-producto-completa {
+            background: #fff;
+            border-radius: 0.8rem;
+            border: 1px solid #f0f0f0;
+            box-shadow: 0 0.15rem 0.8rem rgba(0, 0, 0, 0.05);
+            padding: 0.6rem;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        .img-producto-grid {
+            width: 100%;
+            height: 13rem;
+            object-fit: cover;
+            border-radius: 0.5rem;
+        }
+
+        .badge-pos-left {
+            position: absolute;
+            top: 0.8rem;
+            left: 0.8rem;
+            z-index: 2;
+            font-size: 0.68rem;
+            font-weight: 700;
+        }
+
+        .badge-pos-right {
+            position: absolute;
+            top: 0.8rem;
+            right: 0.8rem;
+            z-index: 2;
+            font-size: 0.68rem;
+            font-weight: 700;
+        }
+
+        .badge-elegido {
+            background: #7000ff;
+            color: white;
+        }
+
+        .badge-premium {
+            background: #6200ee;
+            color: white;
+        }
+
+        .badge-mas-vendido {
+            background: #ff6b00;
+            color: white;
+        }
+
+        .badge-off {
+            background: #10b981;
+            color: white;
+        }
+
+        .btn-agregar-morado {
+            background-color: #8028eb;
+            color: white;
+            border: none;
+            border-radius: 0.6rem;
+            padding: 0.55rem;
+            font-weight: 600;
+            width: 100%;
+            transition: background 0.2s;
+        }
+
+        .btn-agregar-morado:hover {
+            background-color: #6a1ecb;
+            color: white;
+        }
+
+        /* TARJETAS DE GARANTÍA */
+        .tarjetas-beneficios {
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .tarjeta-beneficio-item {
+            background: #ffffff;
+            border-radius: 0.8rem;
+            padding: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.04);
+            border: 1px solid #f0f0f0;
+            height: 100%;
+        }
+
+        .icono-beneficio {
+            width: 2.8rem;
+            height: 2.8rem;
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            flex-shrink: 0;
+        }
+
+        /* PIE DE PÁGINA */
+        .footer-plaza {
+            background-color: #120422;
+            color: #ffffff;
+            padding: 3rem 0 1.5rem 0;
+            margin-top: 2rem;
+        }
+
+        .footer-plaza a {
+            color: #a3a3c2;
+            text-decoration: none;
+            font-size: 0.88rem;
+            display: block;
+            margin-bottom: 0.5rem;
+            transition: color 0.2s;
+        }
+
+        .footer-plaza a:hover {
+            color: #ffffff;
+        }
+
+        .footer-plaza h6 {
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.05rem;
+            margin-bottom: 1.2rem;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            padding-top: 1.5rem;
+            margin-top: 2.5rem;
+            font-size: 0.8rem;
+            color: #7d7d99;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- BARRA SUPERIOR -->
+    <div class="top-bar">
+        <div class="container-fluid px-3 px-lg-4 d-flex justify-content-end align-items-center gap-3">
+            <a href="#">Vender</a>
+            <a href="#">Ayuda</a>
+            <a href="#">Mis compras</a>
+            <div class="d-flex align-items-center gap-1 ms-2">
+                <span class="user-avatar">MR</span>
+                <span>Hola, María</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ENCABEZADO PRINCIPAL -->
+    <header class="header-principal">
+        <div class="container-fluid px-3 px-lg-4">
+            <div class="row align-items-center g-3">
+                <div class="col-6 col-md-2">
+                    <a href="index.html" class="logo">
+                       <span style="font-size: 1.3rem; font-weight: 400;">NovaMarket</span>
+                    </a>
+                </div>
+
+                <div class="col-12 col-md-7 order-3 order-md-0">
+                    <form class="buscador" role="search">
+                        <input type="search" id="campoBusqueda" placeholder="Buscar tenis, botas, zapatos..."
+                            aria-label="Buscar productos">
+                        <button type="submit" class="btn boton-buscar" aria-label="Buscar">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="col-6 col-md-3 d-flex justify-content-end gap-4">
+                    <a href="Cuenta.html" class="opcion-header"><i class="bi bi-person"></i><span>Cuenta</span></a>
+                    <a href="Favoritos.html" class="opcion-header"><i class="bi bi-heart"></i><span>Favoritos</span></a>
+                    <a href="Carrito.html" class="opcion-header"><i class="bi bi-bag"></i><span>Carrito</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MENÚ DE CATEGORÍAS -->
+    <nav class="navbar navbar-expand-lg menu-categorias">
+        <div class="container-fluid px-3 px-lg-4">
+            <button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menuCategorias">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuCategorias">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Electrónica</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="CelularesYSmartphones.html">Celulares</a></li>
+                            <li><a class="dropdown-item" href="Computacion.html">Computación</a></li>
+                            <li><a class="dropdown-item" href="TV.html">TV y video</a></li>
+                            <li><a class="dropdown-item" href="Tablets.html">Tablets</a></li>
+                            <li><a class="dropdown-item" href="Accesorios1.html">Accesorios</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Moda</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Dama.html">Dama</a></li>
+                            <li><a class="dropdown-item" href="Caballero.html">Caballero</a></li>
+                            <li><a class="dropdown-item" href="Ninos.html">Niños</a></li>
+                            <li><a class="dropdown-item" href="Calzado.html">Calzado</a></li>
+                            <li><a class="dropdown-item" href="Accesorio2.html">Accesorios</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Hogar</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Muebles.html">Muebles y decoración</a></li>
+                            <li><a class="dropdown-item" href="Cocina.html">Cocina</a></li>
+                            <li><a class="dropdown-item" href="Electrodomesticos.html">Electrodomésticos</a></li>
+                            <li><a class="dropdown-item" href="Jardineria.html">Jardineria</a></li>
+                            <li><a class="dropdown-item" href="Herramientas.html">Herramientas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Deportes</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Fitness.html">Fitness</a></li>
+                            <li><a class="dropdown-item" href="Futbol.html">Fútbol</a></li>
+                            <li><a class="dropdown-item" href="Ciclismo.html">Ciclismo</a></li>
+                            <li><a class="dropdown-item" href="Running.html">Running</a></li>
+                            <li><a class="dropdown-item" href="Camping.html">Camping</a></li>
+                            <li><a class="dropdown-item" href="DeportesAcuaticos.html">Deportes acuáticos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
+                            data-bs-toggle="dropdown">Juguetes</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Juegos.html">Juegos de mesa</a></li>
+                            <li><a class="dropdown-item" href="Munecos.html">Muñecos</a></li>
+                            <li><a class="dropdown-item" href="Vehiculos.html">Vehículos</a></li>
+                            <li><a class="dropdown-item" href="AireLibre.html">Aire libre</a></li>
+                            <li><a class="dropdown-item" href="Educativos.html">Educativos</a></li>
+                            <li><a class="dropdown-item" href="Coleccionables.html">Coleccionables</a></li>
+                        </ul>
+                        </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
+                            data-bs-toggle="dropdown">Libros</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Ficcion.html">Ficción</a></li>
+                            <li><a class="dropdown-item" href="Noficcion.html">No ficción</a></li>
+                            <li><a class="dropdown-item" href="Infantiles.html">Infantiles</a></li>
+                            <li><a class="dropdown-item" href="Comics.html">Cómics y manga</a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="container-fluid px-3 px-lg-4 mt-3">
+
+        <!-- BANNER CALZADO -->
+        <section class="banner-principal">
+            <div class="banner-contenido">
+                <span class="badge-oferta">PISA CON ESTILO</span>
+                <h1>Calzado</h1>
+                <p class="fs-6 text-white-50 mb-4">Tenis deportivos, botas urbanas y zapatos para cada paso de tu día.
+                </p>
+                <a href="#productos" class="boton-ver-oferta">Ver productos</a>
+            </div>
+        </section>
+
+        <!-- SECCIÓN FILTROS Y GRID DE PRODUCTOS -->
+        <main class="row g-4" id="productos">
+
+            <!-- FILTRO LATERAL -->
+            <aside class="col-12 col-md-4 col-lg-3">
+                <div class="panel-filtros">
+                    <h6 class="fw-bold text-secondary mb-3">FILTRAR POR</h6>
+
+                    <!-- Precio máximo -->
+                    <div class="mb-4">
+                        <label for="rangoPrecio" class="form-label fw-bold small">Precio máximo</label>
+                        <input type="range" class="form-range" min="30000" max="900000" step="10000" value="900000"
+                            id="rangoPrecio">
+                        <div class="d-flex justify-content-between small text-muted fw-bold">
+                            <span>$30.000</span>
+                            <span class="text-dark" id="valorPrecio">$900.000</span>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <!-- Lista de Marcas -->
+                    <div class="mb-3">
+                        <span class="fw-bold small d-block mb-2">Marca</span>
+                        <div class="form-check mb-1"><input class="form-check-input" type="checkbox" id="m1"><label
+                                class="form-check-label small" for="m1">Nike</label></div>
+                        <div class="form-check mb-1"><input class="form-check-input" type="checkbox" id="m2"><label
+                                class="form-check-label small" for="m2">Adidas</label></div>
+                        <div class="form-check mb-1"><input class="form-check-input" type="checkbox" id="m3"><label
+                                class="form-check-label small" for="m3">Puma</label></div>
+                        <div class="form-check mb-1"><input class="form-check-input" type="checkbox" id="m4"><label
+                                class="form-check-label small" for="m4">Timberland</label></div>
+                        <div class="form-check mb-1"><input class="form-check-input" type="checkbox" id="m5"><label
+                                class="form-check-label small" for="m5">Converse</label></div>
+                        <div class="form-check mb-1"><input class="form-check-input" type="checkbox" id="m6"><label
+                                class="form-check-label small" for="m6">Vans</label></div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- CUADRÍCULA DE PRODUCTOS -->
+            <section class="col-12 col-md-8 col-lg-9">
+
+                <!-- BARRA SUPERIOR DE RESULTADOS -->
+                <div class="bg-white rounded-3 p-3 mb-3 d-flex justify-content-between align-items-center border">
+                    <span class="fw-bold">12 resultados en Calzado</span>
+                    <div class="d-flex align-items-center gap-2">
+                        <span class="small text-muted">Ordenar:</span>
+                        <select class="form-select form-select-sm" style="width: auto;">
+                            <option>Relevancia</option>
+                            <option>Menor precio</option>
+                            <option>Mayor precio</option>
+                        </select>
+                        <button class="btn btn-sm btn-primary" style="background:#7928ca; border:none;"><i
+                                class="bi bi-grid-fill"></i></button>
+                        <button class="btn btn-sm btn-light"><i class="bi bi-list-task"></i></button>
+                    </div>
+                </div>
+
+                <!-- TARJETAS DE PRODUCTO -->
+                <div class="row row-cols-1 row-cols-md-3 g-3">
+
+                    <!-- PRODUCTO 1 -->
+                    <div class="col">
+                        <div class="tarjeta-producto-completa">
+                            <div class="position-relative">
+                                <span class="badge badge-pos-left badge-elegido">TOP SELLER</span>
+                                <span class="badge badge-pos-right badge-off">15% OFF</span>
+                                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80"
+                                    class="img-producto-grid" alt="Tenis Nike">
+                            </div>
+                            <div class="pt-2">
+                                <small class="text-muted d-block mb-1">Nuevo · Nike</small>
+                                <h6 class="fw-bold mb-2 fs-6">Tenis Nike Air Running Performance...</h6>
+                                <div class="text-muted text-decoration-line-through small">$399.900</div>
+                                <div class="fs-5 fw-bold">$349.900</div>
+                                <div class="small text-muted mb-3">6 cuotas de $58.315</div>
+                                <button class="btn-agregar-morado">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PRODUCTO 2 -->
+                    <div class="col">
+                        <div class="tarjeta-producto-completa">
+                            <div class="position-relative">
+                                
+                                <span class="badge badge-pos-right badge-off">12% OFF</span>
+                                <img src="https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=600&q=80"
+                                    class="img-producto-grid" alt="Botas Timberland">
+                            </div>
+                            <div class="pt-2">
+                                <small class="text-muted d-block mb-1">Nuevo · Timberland</small>
+                                <h6 class="fw-bold mb-2 fs-6">Botas de Cuero Clásicas Urbanas...</h6>
+                                <div class="text-muted text-decoration-line-through small">$520.000</div>
+                                <div class="fs-5 fw-bold">$459.900</div>
+                                <div class="small text-muted mb-1">12 cuotas de $38.325</div>
+                                <div class="small text-warning fw-bold mb-2"><i class="bi bi-lightning-charge-fill"></i>
+                                    Llega hoy</div>
+                                <button class="btn-agregar-morado">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PRODUCTO 3 -->
+                    <div class="col">
+                        <div class="tarjeta-producto-completa">
+                            <div class="position-relative">
+                                <span class="badge badge-pos-right badge-off">17% OFF</span>
+                                <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=600&q=80"
+                                    class="img-producto-grid" alt="Zapatos Puma">
+                            </div>
+                            <div class="pt-2">
+                                <small class="text-muted d-block mb-1">Nuevo · Puma</small>
+                                <h6 class="fw-bold mb-2 fs-6">Sneakers Urbanos Blancos Casual...</h6>
+                                <div class="text-muted text-decoration-line-through small">$229.900</div>
+                                <div class="fs-5 fw-bold">$189.900</div>
+                                <div class="small text-muted mb-3">3 cuotas de $63.300</div>
+                                <button class="btn-agregar-morado">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <!-- TARJETAS DE BENEFICIOS / GARANTÍAS -->
+        <section class="tarjetas-beneficios">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
+                <div class="col">
+                    <div class="tarjeta-beneficio-item">
+                        <div class="icono-beneficio bg-warning-subtle text-warning">
+                            <i class="bi bi-truck"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold m-0 fs-6">Envío seguro</h6>
+                            <small class="text-muted">En miles de productos</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="tarjeta-beneficio-item">
+                        <div class="icono-beneficio bg-primary-subtle text-primary">
+                            <i class="bi bi-arrow-counterclockwise"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold m-0 fs-6">Devolución gratis</h6>
+                            <small class="text-muted">Hasta 30 días</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="tarjeta-beneficio-item">
+                        <div class="icono-beneficio bg-warning-subtle text-warning">
+                            <i class="bi bi-shield-lock"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold m-0 fs-6">Compra protegida</h6>
+                            <small class="text-muted">Garantía NovaMarket</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="tarjeta-beneficio-item">
+                        <div class="icono-beneficio bg-info-subtle text-info">
+                            <i class="bi bi-credit-card"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold m-0 fs-6">Cuotas sin interés</h6>
+                            <small class="text-muted">Con tarjeta de crédito</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer-plaza">
+        <div class="container-fluid px-3 px-lg-5">
+            <div class="row g-4">
+
+                <!-- COLUMNA 1: BRANDING -->
+                <div class="col-12 col-md-4 col-lg-3">
+                    <a href="index.html" class="logo text-white d-inline-block mb-3 fs-3 fw-bold text-decoration-none">
+                        <span style="color:#a855f7;">NovaMarket</span>
+                    </a>
+                    <p class="small text-secondary pe-lg-4">
+                        Tu marketplace digital de confianza. Compra y vende con total seguridad.
+                    </p>
+                </div>
+
+                <!-- COLUMNA 2: COMPRAR -->
+                <div class="col-6 col-md-2">
+                    <h6>Comprar</h6>
+                    <a href="#">Cómo comprar</a>
+                    <a href="#">Pagar</a>
+                    <a href="#">Envíos</a>
+                    <a href="#">Devoluciones</a>
+                    <a href="#">Mercado Puntos</a>
+                </div>
+
+                <!-- COLUMNA 3: VENDER -->
+                <div class="col-6 col-md-2">
+                    <h6>Vender</h6>
+                    <a href="#">Cómo vender</a>
+                    <a href="#">Herramientas</a>
+                    <a href="#">Publicidad</a>
+                    <a href="#">Tarifas</a>
+                    <a href="#">Tiendas oficiales</a>
+                </div>
+
+                <!-- COLUMNA 4: SEGURIDAD -->
+                <div class="col-6 col-md-2">
+                    <h6>Seguridad</h6>
+                    <a href="#">Compra protegida</a>
+                    <a href="#">Centro de ayuda</a>
+                    <a href="#">Denunciar un artículo</a>
+                    <a href="#">Privacidad</a>
+                </div>
+
+                <!-- COLUMNA 5: NOSOTROS -->
+                <div class="col-6 col-md-2">
+                    <h6>Nosotros</h6>
+                    <a href="#">Sobre NovaMarket</a>
+                    <a href="#">Noticias</a>
+                    <a href="#">Sustentabilidad</a>
+                    <a href="#">Trabaja con nosotros</a>
+                </div>
+
+            </div>
+
+            <!-- FOOTER INFERIOR -->
+            <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-2">
+                <div>
+                    &copy; 2026 NovaMarket S.R.L. — Derechos reservados
+                </div>
+                <div class="d-flex gap-3">
+                    <a href="#" class="m-0">Privacidad</a>
+                    <a href="#" class="m-0">Términos</a>
+                    <a href="#" class="m-0">Accesibilidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const rangoPrecio = document.getElementById('rangoPrecio');
+            const valorPrecio = document.getElementById('valorPrecio');
+
+            rangoPrecio.addEventListener('input', (e) => {
+                valorPrecio.textContent = '$' + Number(e.target.value).toLocaleString('es-CO');
+            });
+        });
+    </script>
+</body>
+
+</html>

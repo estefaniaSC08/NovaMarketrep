@@ -1,0 +1,282 @@
+ :root {
+     --morado: #7928ca;
+     --morado-claro: #a855f7;
+     --morado-btn: #c48eff;
+     --morado-oscuro: #17052c;
+     --fondo: #f6f5f8;
+ }
+
+ body {
+     background-color: var(--fondo);
+     color: #212529;
+     font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+     margin: 0;
+     padding: 0;
+ }
+
+ /* BARRA SUPERIOR PÚRPURA */
+ .top-bar {
+     background-color: var(--morado);
+     color: white;
+     font-size: 0.82rem;
+     padding: 0.35rem 0;
+ }
+
+ .top-bar a {
+     color: rgba(255, 255, 255, 0.9);
+     text-decoration: none;
+ }
+
+ .top-bar a:hover {
+     color: #fff;
+     text-decoration: underline;
+ }
+
+ .user-avatar {
+     width: 22px;
+     height: 22px;
+     background: rgba(255, 255, 255, 0.25);
+     border-radius: 50%;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 0.65rem;
+     font-weight: bold;
+ }
+
+ /* ENCABEZADO PRINCIPAL */
+ .header-principal {
+     background-color: #fff;
+     padding: 0.8rem 0;
+     border-bottom: 1px solid #eaeaea;
+ }
+
+ .logo {
+     font-size: 1.6rem;
+     font-weight: 800;
+     color: var(--morado);
+     text-decoration: none;
+     line-height: 1;
+ }
+
+ .buscador {
+     display: flex;
+     width: 100%;
+     border-radius: 0.5rem;
+     overflow: hidden;
+     border: 2px solid var(--morado);
+ }
+
+ .buscador input {
+     width: 100%;
+     min-width: 0;
+     padding: 0.5rem 0.9rem;
+     border: none;
+     outline: none;
+     background: #fff;
+     font-size: 0.9rem;
+ }
+
+ .boton-buscar {
+     color: white;
+     background: var(--morado);
+     padding: 0.5rem 1.1rem;
+     border-radius: 0;
+     border: none;
+ }
+
+ .boton-buscar:hover {
+     background: #601eb0;
+     color: white;
+ }
+
+ .opcion-header {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     color: var(--morado);
+     font-size: 0.75rem;
+     cursor: pointer;
+     text-decoration: none;
+     white-space: nowrap;
+ }
+
+ .opcion-header i {
+     font-size: 1.35rem;
+ }
+
+ /* MENÚ CATEGORÍAS */
+ .menu-categorias {
+     background: #fff;
+     border-bottom: 1px solid #e0e0e0;
+     padding: 0;
+ }
+
+ .menu-categorias .navbar-nav {
+     gap: 1.5rem;
+ }
+
+ .menu-categorias .nav-link {
+     color: #555;
+     padding: 0.8rem 0;
+     font-weight: 500;
+     font-size: 0.9rem;
+     position: relative;
+ }
+
+ .menu-categorias .nav-link:hover {
+     color: var(--morado);
+ }
+
+ .menu-categorias .nav-link.active {
+     color: var(--morado);
+     font-weight: 600;
+ }
+
+ .menu-categorias .nav-link.active::after {
+     content: '';
+     position: absolute;
+     bottom: 0;
+     left: -5px;
+     right: -5px;
+     height: 3px;
+     background-color: var(--morado);
+     border-radius: 3px 3px 0 0;
+ }
+
+ /* BANNER Y CARRUSEL ESTILO EXACTO DE LA IMAGEN */
+ .banner-principal {
+     min-height: 22rem;
+     margin: 1.5rem 0;
+     border-radius: 1rem;
+     overflow: hidden;
+     position: relative;
+     display: flex;
+     align-items: center;
+     color: white;
+     background:
+         linear-gradient(90deg,
+             #6d20b7 0%,
+             #6d20b7 50%,
+             rgba(109, 32, 183, 0.4) 65%,
+             transparent 100%),
+         url("https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1600&q=80") center right / cover no-repeat;
+     box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+ }
+
+ .banner-contenido {
+     max-width: 36rem;
+     padding: clamp(1.5rem, 4vw, 3.5rem);
+     z-index: 2;
+ }
+
+ .badge-oferta {
+     background: rgba(255, 255, 255, 0.2);
+     color: #fff;
+     padding: 0.35rem 0.8rem;
+     border-radius: 0.4rem;
+     font-size: 0.78rem;
+     font-weight: 600;
+     display: inline-block;
+     margin-bottom: 1rem;
+ }
+
+ .banner-principal h1 {
+     font-size: clamp(2.1rem, 4.2vw, 3.5rem);
+     font-weight: 800;
+     margin-bottom: 0.5rem;
+     line-height: 1.1;
+ }
+
+ .boton-ver-oferta {
+     background-color: #c48eff;
+     color: #1d0738;
+     border: none;
+     border-radius: 1.5rem;
+     padding: 0.65rem 1.6rem;
+     font-weight: 700;
+     font-size: 0.95rem;
+     display: inline-flex;
+     align-items: center;
+     text-decoration: none;
+     transition: background 0.2s;
+ }
+
+ .boton-ver-oferta:hover {
+     background-color: #b070f8;
+     color: #1d0738;
+ }
+
+ /* FLECHAS DEL CARRUSEL */
+ .btn-carrusel-control {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     width: 2.5rem;
+     height: 2.5rem;
+     background: rgba(255, 255, 255, 0.2);
+     border: none;
+     border-radius: 50%;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     z-index: 10;
+     cursor: pointer;
+     transition: background 0.2s;
+ }
+
+ .btn-carrusel-control:hover {
+     background: rgba(255, 255, 255, 0.4);
+ }
+
+ .btn-carrusel-prev {
+     left: 1rem;
+ }
+
+ .btn-carrusel-next {
+     right: 1rem;
+ }
+
+ /* INDICADORES (PUNTOS) */
+ .indicadores-carrusel {
+     position: absolute;
+     bottom: 1rem;
+     left: 50%;
+     transform: translateX(-50%);
+     display: flex;
+     gap: 0.5rem;
+     z-index: 10;
+ }
+
+ .punto-indicador {
+     width: 0.6rem;
+     height: 0.6rem;
+     border-radius: 50%;
+     background: rgba(255, 255, 255, 0.4);
+     border: none;
+ }
+
+ .punto-indicador.activo {
+     background: #fff;
+     width: 1.2rem;
+     border-radius: 1rem;
+ }
+
+ /* PIE DE PÁGINA */
+ .footer {
+     background: var(--morado-oscuro);
+     color: white;
+     padding: 2.5rem 1rem;
+     margin-top: 3rem;
+ }
+
+ .footer a {
+     color: #c48eff;
+     text-decoration: none;
+ }
+
+ .footer a:hover {
+     text-decoration: underline;
+ }
