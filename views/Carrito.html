@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi carrito | NovaMarket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body class="bg-body-tertiary">
+    <header class="bg-white border-bottom">
+        <div class="container py-3 d-flex align-items-center justify-content-between">
+            <a href="../index.html" class="fs-4 fw-bold text-primary text-decoration-none">NovaMarket</a>
+            <a href="../index.html" class="btn btn-outline-primary">
+                <i class="bi bi-arrow-left me-1"></i> Seguir comprando
+            </a>
+        </div>
+    </header>
+
+    <main class="container py-4 py-md-5">
+        <h1 class="h2 fw-bold mb-4">Mi carrito</h1>
+        
+        <!-- Mensaje de carrito vacío -->
+        <div id="cart-empty" class="card border-0 shadow-sm text-center p-5">
+            <i class="bi bi-bag fs-1 text-primary mb-3"></i>
+            <h2 class="h4">Tu carrito está vacío</h2>
+            <p class="text-muted">Agrega productos desde cualquiera de nuestras categorías.</p>
+            <a href="../index.html" class="btn btn-primary align-self-center">Explorar productos</a>
+        </div>
+
+        <!-- Contenedor donde se inyectan dinámicamente los productos -->
+        <div id="cart-items" aria-live="polite"></div>
+
+        <!-- Resumen de compra -->
+        <section id="cart-summary" class="card border-0 shadow-sm p-4 d-none mt-4" aria-label="Resumen de compra">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="fs-5 fw-bold">Total</span>
+                <span id="cart-total" class="fs-4 fw-bold text-primary">$ 0</span>
+            </div>
+            <p class="small text-muted">El total se calcula con los productos y cantidades de tu carrito.</p>
+            <div class="d-flex flex-wrap gap-2 justify-content-end">
+                <button id="cart-clear" type="button" class="btn btn-outline-danger">Vaciar carrito</button>
+                <a href="../index.html" class="btn btn-primary">Seguir comprando</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script principal de la tienda (controla el catálogo dinámico, filtros y carrito) -->
+    <script src="../js/catalog.js"></script>
+</body>
+
+</html>
