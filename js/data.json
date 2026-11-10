@@ -5,7 +5,8 @@
     "brand": "Fossil",
     "price": 489900,
     "category": "Accesorio2",
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "gafas-rayban",
@@ -13,7 +14,8 @@
     "name": "Gafas de sol Ray-Ban clásicas",
     "brand": "Ray-Ban",
     "price": 359900,
-    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "airpods-pro",
@@ -30,7 +32,8 @@
     "name": "Batería portátil Anker 20.000 mAh",
     "brand": "Anker",
     "price": 189900,
-    "image": "https://images.unsplash.com/photo-1609592424104-12d8a1c97793?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1609592424104-12d8a1c97793?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "piscina-inflable",
@@ -47,7 +50,8 @@
     "name": "Trampolín de jardín con red",
     "brand": "Outdoor",
     "price": 899900,
-    "image": "https://images.unsplash.com/photo-1584620022709-a1b6351e233f?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1584620022709-a1b6351e233f?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "blazer-slim-fit",
@@ -64,7 +68,8 @@
     "name": "Camiseta Polo Algodón Pima",
     "brand": "Tommy Hilfiger",
     "price": 98400,
-    "image": "../imagenes/Gemini_Generated_Image_9bjvwl9bjvwl9bjv.jpg"
+    "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "jean-501-original",
@@ -72,7 +77,8 @@
     "name": "Pantalón Jean 501 Original Fit",
     "brand": "Levi's",
     "price": 174990,
-    "image": "../imagenes/Gemini_Generated_Image_u1z2i9u1z2i9u1z2.jpg"
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "tenis-nike-air",
@@ -89,7 +95,8 @@
     "name": "Botas de Cuero Clásicas Urbanas",
     "brand": "Timberland",
     "price": 459900,
-    "image": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "sneakers-puma",
@@ -97,7 +104,8 @@
     "name": "Sneakers Urbanos Blancos Casual",
     "brand": "Puma",
     "price": 189900,
-    "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "carpa-camping",
@@ -114,7 +122,8 @@
     "name": "Linterna de cabeza recargable",
     "brand": "Outdoor",
     "price": 89900,
-    "image": "https://images.unsplash.com/photo-1517816743773-6e0fd518b4a6?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1517816743773-6e0fd518b4a6?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "iphone-15-pro-max",
@@ -131,7 +140,8 @@
     "name": "Samsung Galaxy S24 Ultra 512GB",
     "brand": "Samsung Chile",
     "price": 3999990,
-    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "xiaomi-redmi-note-13",
@@ -139,7 +149,8 @@
     "name": "Xiaomi Redmi Note 13 Pro+ 5G",
     "brand": "Xiaomi Store",
     "price": 1424990,
-    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "bicicleta-mtb",
@@ -156,7 +167,8 @@
     "name": "Casco ajustable para ciclismo",
     "brand": "Bell",
     "price": 189900,
-    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "bateria-cocina-ant",
@@ -164,7 +176,7 @@
     "name": "Batería de Cocina Antiadherente 10 Pzas",
     "brand": "T-fal",
     "price": 349990,
-    "image": "../imagenes/Gemini_Generated_Image_twzfrotwzfrotwzf.jpg",
+    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=600&q=80",
     "featured": true
   },
   {
@@ -173,7 +185,8 @@
     "name": "Juego Cuchillos de Acero Inoxidable 6 Pzas",
     "brand": "Tramontina",
     "price": 195490,
-    "image": "../imagenes/Gemini_Generated_Image_tmepautmepautmep.jpg"
+    "image": "https://images.unsplash.com/photo-1593618998160-e34014e67546?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "vajilla-ceramica",
@@ -181,7 +194,8 @@
     "name": "Vajilla de Cerámica 4 Puestos (16 Pzas)",
     "brand": "Corona",
     "price": 155790,
-    "image": "../imagenes/Gemini_Generated_Image_5w5tm35w5tm35w5t.jpg"
+    "image": "https://images.unsplash.com/photo-1615870216519-2f9fa575fa5c?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "funko-animation",
@@ -198,7 +212,8 @@
     "name": "Figura de colección Bandai",
     "brand": "Bandai",
     "price": 179900,
-    "image": "https://images.unsplash.com/photo-1618336753974-aae8e04506aa?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1618336753974-aae8e04506aa?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "manga-demon-slayer",
@@ -206,7 +221,7 @@
     "name": "Manga Demon Slayer tomo 1",
     "brand": "Panini",
     "price": 49900,
-    "image": "../imagenes/D_NQ_NP_743728-MLU43010512876_082020-O.webp",
+    "image": "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=600&q=80",
     "featured": true
   },
   {
@@ -215,7 +230,8 @@
     "name": "Novela gráfica Batman",
     "brand": "DC Comics",
     "price": 79900,
-    "image": "https://images.unsplash.com/photo-1534809027769-b00d750a6bac?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1534809027769-b00d750a6bac?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "macbook-air-m3",
@@ -232,7 +248,8 @@
     "name": "Mouse inalámbrico Logitech MX Master",
     "brand": "Logitech",
     "price": 349900,
-    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "vestido-largo-casual",
@@ -240,7 +257,7 @@
     "name": "Vestido Largo Casual Primavera",
     "brand": "Zara",
     "price": 129990,
-    "image": "../imagenes/Gemini_Generated_Image_t5luavt5luavt5lu.jpg",
+    "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=600&q=80",
     "featured": true
   },
   {
@@ -249,7 +266,8 @@
     "name": "Chaqueta Blazer Estilo Formal",
     "brand": "Mango",
     "price": 239990,
-    "image": "../imagenes/Gemini_Generated_Image_jncr2rjncr2rjncr.jpg"
+    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "blusa-algodon-manga-larga",
@@ -257,7 +275,8 @@
     "name": "Blusa Algodón Manga Larga",
     "brand": "H&M",
     "price": 75990,
-    "image": "../imagenes/Gemini_Generated_Image_xo30hnxo30hnxo30.jpg"
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "kit-snorkel",
@@ -265,7 +284,8 @@
     "name": "Kit de snorkel para adulto",
     "brand": "Aqua",
     "price": 149900,
-    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "gafas-natacion",
@@ -273,7 +293,8 @@
     "name": "Gafas de natación antiniebla",
     "brand": "Aqua",
     "price": 59900,
-    "image": "https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "lego-classic",
@@ -281,7 +302,8 @@
     "name": "Set de construcción LEGO Classic",
     "brand": "LEGO",
     "price": 159900,
-    "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "kit-ciencia",
@@ -289,7 +311,8 @@
     "name": "Kit educativo de experimentos científicos",
     "brand": "Educa",
     "price": 99900,
-    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "freidora-aire",
@@ -297,7 +320,8 @@
     "name": "Freidora de aire digital",
     "brand": "Home",
     "price": 399900,
-    "image": "https://images.unsplash.com/photo-1626531235300-47cb5e206ab3?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1626531235300-47cb5e206ab3?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "lavadora-lg",
@@ -305,7 +329,8 @@
     "name": "Lavadora automática LG",
     "brand": "LG",
     "price": 1899900,
-    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "cien-anos-soledad",
@@ -313,7 +338,8 @@
     "name": "Cien años de soledad",
     "brand": "Penguin Random House",
     "price": 59900,
-    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "1984-orwell",
@@ -321,7 +347,8 @@
     "name": "1984 de George Orwell",
     "brand": "Penguin Random House",
     "price": 44900,
-    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "tapete-yoga",
@@ -329,7 +356,8 @@
     "name": "Tapete antideslizante para yoga",
     "brand": "Sport",
     "price": 89900,
-    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "mancuernas",
@@ -337,7 +365,8 @@
     "name": "Set de mancuernas para entrenamiento",
     "brand": "Sport",
     "price": 199900,
-    "image": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "balon-futbol",
@@ -345,7 +374,8 @@
     "name": "Balón de fútbol profesional",
     "brand": "Sport",
     "price": 129900,
-    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "guayos-futbol",
@@ -353,7 +383,8 @@
     "name": "Guayos de fútbol para cancha",
     "brand": "Nike",
     "price": 289900,
-    "image": "https://images.unsplash.com/photo-1511886929837-354d277aae4d?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1511886929837-354d277aae4d?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "taladro-dewalt",
@@ -361,7 +392,8 @@
     "name": "Taladro inalámbrico DeWalt",
     "brand": "DeWalt",
     "price": 599900,
-    "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "caja-herramientas",
@@ -369,7 +401,8 @@
     "name": "Caja de herramientas completa",
     "brand": "BuildUp",
     "price": 249900,
-    "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "libro-texturas",
@@ -377,7 +410,8 @@
     "name": "Libro infantil de texturas",
     "brand": "Educa",
     "price": 39900,
-    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "libro-pop-up",
@@ -385,7 +419,8 @@
     "name": "Libro infantil pop-up",
     "brand": "Educa",
     "price": 54900,
-    "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "cortacesped-electrico",
@@ -393,7 +428,7 @@
     "name": "Cortacésped / Podadora Eléctrica 1200W",
     "brand": "Black+Decker",
     "price": 479990,
-    "image": "../imagenes/D_Q_NP_2X_982932-MCO114316030222_082026-P.webp",
+    "image": "https://images.unsplash.com/photo-1592417817098-8f3d692adb4b?auto=format&fit=crop&w=600&q=80",
     "featured": true
   },
   {
@@ -402,7 +437,8 @@
     "name": "Kit Manguera Expandible 25m + Pistola",
     "brand": "Truper",
     "price": 152990,
-    "image": "../imagenes/D_NQ_NP_872751-MCO91763729038_092025-O.webp"
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "set-herramientas-jardin",
@@ -410,7 +446,8 @@
     "name": "Set Herramientas Manuales Jardín 4 Pzas",
     "brand": "Truper",
     "price": 59990,
-    "image": "../imagenes/images.jpg"
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "juego-catan",
@@ -418,7 +455,8 @@
     "name": "Juego de mesa Catan",
     "brand": "Devir",
     "price": 179900,
-    "image": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "juego-uno",
@@ -426,7 +464,8 @@
     "name": "Juego de cartas UNO",
     "brand": "Mattel",
     "price": 29900,
-    "image": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "sofa-seccional-lino",
@@ -443,7 +482,8 @@
     "name": "Juego de Comedor Madera 4 Sillas",
     "brand": "Moduar Design",
     "price": 1104990,
-    "image": "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "escritorio-oficina",
@@ -451,7 +491,8 @@
     "name": "Escritorio Oficina",
     "brand": "RTA Muebles",
     "price": 299990,
-    "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "muneca-moda",
@@ -459,7 +500,8 @@
     "name": "Muñeca de moda con accesorios",
     "brand": "Mattel",
     "price": 99900,
-    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "peluche-suave",
@@ -467,7 +509,8 @@
     "name": "Peluche suave para regalar",
     "brand": "Toyland",
     "price": 69900,
-    "image": "https://images.unsplash.com/photo-1534723485860-8e42f9b39221?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1534723485860-8e42f9b39221?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "conjunto-deportivo-infantil",
@@ -475,7 +518,7 @@
     "name": "Conjunto Deportivo Algodón Infantil",
     "brand": "Carter's",
     "price": 69900,
-    "image": "../imagenes/Gemini_Generated_Image_qv8eu4qv8eu4qv8e.jpg",
+    "image": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=600&q=80",
     "featured": true
   },
   {
@@ -484,7 +527,8 @@
     "name": "Chaqueta Acolchada Impermeable",
     "brand": "Adidas Kids",
     "price": 49900,
-    "image": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "camiseta-blanca-ninos",
@@ -492,7 +536,8 @@
     "name": "Camiseta Blanca",
     "brand": "Zara Kids",
     "price": 119900,
-    "image": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "habitos-atomicos",
@@ -500,7 +545,8 @@
     "name": "Hábitos atómicos",
     "brand": "Planeta",
     "price": 69900,
-    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "sapiens",
@@ -508,7 +554,8 @@
     "name": "Sapiens: De animales a dioses",
     "brand": "Debate",
     "price": 89900,
-    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "zapatillas-running",
@@ -516,7 +563,8 @@
     "name": "Zapatillas para running",
     "brand": "Asics",
     "price": 349900,
-    "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "reloj-gps",
@@ -524,7 +572,8 @@
     "name": "Reloj GPS deportivo",
     "brand": "Sport",
     "price": 499900,
-    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "ipad-air",
@@ -532,7 +581,8 @@
     "name": "Apple iPad Air",
     "brand": "Apple",
     "price": 2999990,
-    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "galaxy-tab",
@@ -540,7 +590,8 @@
     "name": "Samsung Galaxy Tab",
     "brand": "Samsung",
     "price": 1599990,
-    "image": "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "samsung-qled",
@@ -548,7 +599,8 @@
     "name": "Televisor Samsung QLED 4K",
     "brand": "Samsung",
     "price": 2499990,
-    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "smart-tv-lg",
@@ -556,7 +608,8 @@
     "name": "Smart TV LG 4K",
     "brand": "LG",
     "price": 1899990,
-    "image": "https://images.unsplash.com/photo-1567690187548-f07b15d76e3f?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1567690187548-f07b15d76e3f?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "carro-control-remoto",
@@ -564,7 +617,8 @@
     "name": "Carro a control remoto",
     "brand": "Toyland",
     "price": 89900,
-    "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   },
   {
     "id": "pista-carros",
@@ -572,6 +626,7 @@
     "name": "Pista de carreras para carros",
     "brand": "Toyland",
     "price": 159900,
-    "image": "https://images.unsplash.com/photo-1581557991964-125469da3b8a?auto=format&fit=crop&w=600&q=80"
+    "image": "https://images.unsplash.com/photo-1581557991964-125469da3b8a?auto=format&fit=crop&w=600&q=80",
+    "featured": false
   }
 ]
