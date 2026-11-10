@@ -159,21 +159,29 @@
     "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=80"
   },
   {
-    "id": "bateria-cocina",
+    "id": "bateria-cocina-ant",
     "category": "Cocina",
-    "name": "Batería de cocina antiadherente",
-    "brand": "Home",
-    "price": 399900,
-    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=600&q=80",
+    "name": "Batería de Cocina Antiadherente 10 Pzas",
+    "brand": "T-fal",
+    "price": 349990,
+    "image": "../imagenes/Gemini_Generated_Image_twzfrotwzfrotwzf.jpg",
     "featured": true
   },
   {
-    "id": "juego-cuchillos",
+    "id": "juego-cuchillos-inox",
     "category": "Cocina",
-    "name": "Juego de cuchillos de cocina",
-    "brand": "Home",
-    "price": 159900,
-    "image": "https://images.unsplash.com/photo-1593618998160-e34014e67546?auto=format&fit=crop&w=600&q=80"
+    "name": "Juego Cuchillos de Acero Inoxidable 6 Pzas",
+    "brand": "Tramontina",
+    "price": 195490,
+    "image": "../imagenes/Gemini_Generated_Image_tmepautmepautmep.jpg"
+  },
+  {
+    "id": "vajilla-ceramica",
+    "category": "Cocina",
+    "name": "Vajilla de Cerámica 4 Puestos (16 Pzas)",
+    "brand": "Corona",
+    "price": 155790,
+    "image": "../imagenes/Gemini_Generated_Image_5w5tm35w5tm35w5t.jpg"
   },
   {
     "id": "funko-animation",
@@ -380,20 +388,29 @@
     "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80"
   },
   {
-    "id": "manguera-riego",
+    "id": "cortacesped-electrico",
     "category": "Jardineria",
-    "name": "Manguera para riego de jardín",
-    "brand": "Garden",
-    "price": 89900,
-    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=600&q=80"
+    "name": "Cortacésped / Podadora Eléctrica 1200W",
+    "brand": "Black+Decker",
+    "price": 479990,
+    "image": "../imagenes/D_Q_NP_2X_982932-MCO114316030222_082026-P.webp",
+    "featured": true
   },
   {
-    "id": "herramientas-jardin",
+    "id": "kit-manguera-expandible",
     "category": "Jardineria",
-    "name": "Set de herramientas de jardinería",
-    "brand": "Garden",
-    "price": 119900,
-    "image": "https://images.unsplash.com/photo-1617576530639-654cd40f7d86?auto=format&fit=crop&w=600&q=80"
+    "name": "Kit Manguera Expandible 25m + Pistola",
+    "brand": "Truper",
+    "price": 152990,
+    "image": "../imagenes/D_NQ_NP_872751-MCO91763729038_092025-O.webp"
+  },
+  {
+    "id": "set-herramientas-jardin",
+    "category": "Jardineria",
+    "name": "Set Herramientas Manuales Jardín 4 Pzas",
+    "brand": "Truper",
+    "price": 59990,
+    "image": "../imagenes/images.jpg"
   },
   {
     "id": "juego-catan",
