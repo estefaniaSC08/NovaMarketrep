@@ -475,20 +475,29 @@
     "image": "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=600&q=80"
   },
   {
-    "id": "samsung-qled",
+    "id": "smart-tv-lg-oled",
     "category": "TV",
-    "name": "Televisor Samsung QLED 4K",
-    "brand": "Samsung",
-    "price": 2499990,
-    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=600&q=80"
+    "name": "Smart TV LG OLED 55\" 4K UHD ThinQ AI",
+    "brand": "LG",
+    "price": 3439990,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=600&q=80",
+    "featured": true
   },
   {
-    "id": "smart-tv-lg",
+    "id": "smart-tv-samsung-qled",
     "category": "TV",
-    "name": "Smart TV LG 4K",
-    "brand": "LG",
-    "price": 1899990,
-    "image": "https://images.unsplash.com/photo-1567690187548-f07b15d76e3f?auto=format&fit=crop&w=600&q=80"
+    "name": "Smart TV Samsung 65\" QLED 4K",
+    "brand": "Samsung",
+    "price": 2924990,
+    "image": "../imagenes/images (5).jpg"
+  },
+  {
+    "id": "barra-sonido-jbl",
+    "category": "TV",
+    "name": "Barra de Sonido JBL Cinema Subwoofer",
+    "brand": "JBL",
+    "price": 764990,
+    "image": "../imagenes/Gemini_Generated_Image_7tc3ae7tc3ae7tc3.jpg"
   },
   {
     "id": "carro-control-remoto",
