@@ -315,21 +315,30 @@
     "featured": false
   },
   {
-    "id": "freidora-aire",
+    "id": "freidora-aire-haceb",
+    "name": "Freidora de Aire Haceb 4.2 Litros",
+    "brand": "Haceb",
+    "price": 279490,
     "category": "Electrodomesticos",
-    "name": "Freidora de aire digital",
-    "brand": "Home",
-    "price": 399900,
-    "image": "https://images.unsplash.com/photo-1626531235300-47cb5e206ab3?auto=format&fit=crop&w=600&q=80",
-    "featured": false
+    "image": "../imagenes/162166-800-auto.webp",
+    "featured": true
+  },
+  {
+    "id": "nevecon-mabe",
+    "name": "Nevecón No Frost Inverter 565L Inox Mabe MSL521QMLSS0",
+    "brand": "Mabe",
+    "price": 3740000,
+    "category": "Electrodomesticos",
+    "image": "../imagenes/2000Wx2000H-B-Mabe-Refrigerado.webp",
+    "featured": true
   },
   {
     "id": "lavadora-lg",
-    "category": "Electrodomesticos",
-    "name": "Lavadora automática LG",
+    "name": "Lavadora LG Carga Superior 19 Kg Wt19Mbb Negra",
     "brand": "LG",
-    "price": 1899900,
-    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=600&q=80",
+    "price": 1954990,
+    "category": "Electrodomesticos",
+    "image": "../imagenes/images (1).jpg",
     "featured": false
   },
   {
