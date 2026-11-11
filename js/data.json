@@ -117,21 +117,29 @@
     "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=600&q=80"
   },
   {
-    "id": "carpa-camping",
+    "id": "carpa-camping-coleman",
     "category": "Camping",
-    "name": "Carpa de camping para 4 personas",
-    "brand": "Outdoor",
-    "price": 459900,
-    "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=600&q=80",
+    "name": "Coleman Sundome Verde Carpa 4 Personas Original",
+    "brand": "Coleman",
+    "price": 424150,
+    "image": "../imagenes/D_Q_NP_2X_944977-MCO43943735889_102020-R.webp",
     "featured": true
   },
   {
-    "id": "linterna-camping",
+    "id": "saco-dormir-doite",
     "category": "Camping",
-    "name": "Linterna de cabeza recargable",
-    "brand": "Outdoor",
-    "price": 89900,
-    "image": "https://images.unsplash.com/photo-1517816743773-6e0fd518b4a6?auto=format&fit=crop&w=600&q=80"
+    "name": "Saco de Dormir Térmico -5°C",
+    "brand": "Doite",
+    "price": 184800,
+    "image": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "linterna-frontal-natgeo",
+    "category": "Camping",
+    "name": "Linterna Frontal Power Led National Geographic Lng6542 Linterna Amarillo/negro Luz Blanco",
+    "brand": "Nat Geo",
+    "price": 233102,
+    "image": "../imagenes/D_Q_NP_2X_976830-MLU74863730561_032024-R.webp"
   },
   {
     "id": "iphone-15-pro-max",
@@ -161,19 +169,27 @@
   {
     "id": "bicicleta-mtb",
     "category": "Ciclismo",
-    "name": "Bicicleta MTB todo terreno",
+    "name": "Bicicleta Montaña MTB Rin 29 Shimano",
     "brand": "GW",
-    "price": 1299900,
+    "price": 1614990,
     "image": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=600&q=80",
     "featured": true
   },
   {
-    "id": "casco-ciclismo",
+    "id": "casco-ciclismo-giro",
     "category": "Ciclismo",
-    "name": "Casco ajustable para ciclismo",
-    "brand": "Bell",
-    "price": 189900,
-    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=80"
+    "name": "Casco Ciclismo Giro Ember Mips Mujer Negro - Morado S",
+    "brand": "Giro",
+    "price": 444690,
+    "image": "../imagenes/D_Q_NP_2X_810536-MLA109098335196_042026-R.webp"
+  },
+  {
+    "id": "kit-luces-trek",
+    "category": "Ciclismo",
+    "name": "Kit De Luces Trek Ion 200/frare Rt Del/tra",
+    "brand": "Trek",
+    "price": 377625,
+    "image": "../imagenes/D_Q_NP_2X_924930-MCO112590739853_062026-R.webp"
   },
   {
     "id": "bateria-cocina-ant",
@@ -285,20 +301,29 @@
     "image": "../imagenes/Gemini_Generated_Image_xo30hnxo30hnxo30.jpg"
   },
   {
-    "id": "kit-snorkel",
+    "id": "gafas-natacion-arena",
     "category": "DeportesAcuaticos",
-    "name": "Kit de snorkel para adulto",
-    "brand": "Aqua",
-    "price": 149900,
-    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80"
+    "name": "Gafas de natación profesionales impermeables antivaho de alta definición UV400.",
+    "brand": "Arena",
+    "price": 178161,
+    "image": "../imagenes/descarga.webp",
+    "featured": true
   },
   {
-    "id": "gafas-natacion",
+    "id": "kit-snorkel-cressi",
     "category": "DeportesAcuaticos",
-    "name": "Gafas de natación antiniebla",
-    "brand": "Aqua",
-    "price": 59900,
-    "image": "https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=600&q=80"
+    "name": "Set Snorkel Máscara + Aletas de Buceo",
+    "brand": "Cressi",
+    "price": 427542,
+    "image": "../imagenes/images (3).jpg"
+  },
+  {
+    "id": "chaleco-salvavidas-speedo",
+    "category": "DeportesAcuaticos",
+    "name": "Chaleco Salvavidas Speedo Flotation Para Niños, Upf 50, Tamaño Grande, Naranja",
+    "brand": "Arena",
+    "price": 151200,
+    "image": "../imagenes/images (4).jpg"
   },
   {
     "id": "lego-classic",
@@ -384,18 +409,27 @@
   {
     "id": "balon-futbol",
     "category": "Futbol",
-    "name": "Balón de fútbol profesional",
-    "brand": "Sport",
-    "price": 129900,
-    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=600&q=80"
+    "name": "Balón de Fútbol Profesional N° 5",
+    "brand": "Golty",
+    "price": 119990,
+    "image": "https://images.unsplash.com/photo-1614632537190-23e4146777db?auto=format&fit=crop&w=600&q=80",
+    "featured": true
   },
   {
     "id": "guayos-futbol",
     "category": "Futbol",
-    "name": "Guayos de fútbol para cancha",
+    "name": "Guayos Mercurial Profesional Terreno Firme",
     "brand": "Nike",
-    "price": 289900,
-    "image": "https://images.unsplash.com/photo-1511886929837-354d277aae4d?auto=format&fit=crop&w=600&q=80"
+    "price": 509990,
+    "image": "https://images.unsplash.com/photo-1511886929837-354d827aae26?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "canilleras-adidas",
+    "category": "Futbol",
+    "name": "Canilleras adidas Fútbol Adiflex Unisex Azul Kv3210 M Azul",
+    "brand": "Adidas",
+    "price": 49950,
+    "image": "../imagenes/D_Q_NP_2X_828880-.webp"
   },
   {
     "id": "taladro-dewalt",
@@ -465,18 +499,27 @@
   {
     "id": "juego-catan",
     "category": "Juegos",
-    "name": "Juego de mesa Catan",
+    "name": "Juego Catan Devir Español Juego de estrategia",
     "brand": "Devir",
-    "price": 179900,
-    "image": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=600&q=80"
+    "price": 118425,
+    "image": "../imagenes/D_Q_NP_2X_939757-MLA99939228749_112025-R.webp",
+    "featured": true
   },
   {
-    "id": "juego-uno",
+    "id": "monopoly-mega-edition",
     "category": "Juegos",
-    "name": "Juego de cartas UNO",
-    "brand": "Mattel",
-    "price": 29900,
-    "image": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=600&q=80"
+    "name": "Monopoly The Mega Edition Con Speed Die Ganando Movimientos",
+    "brand": "Hasbro Gaming",
+    "price": 218770,
+    "image": "../imagenes/D_Q_NP_2X_851704-CBT1.webp"
+  },
+  {
+    "id": "uno-flip-cartas",
+    "category": "Juegos",
+    "name": "Uno Flip Juego de Cartas",
+    "brand": "Mattel Games",
+    "price": 68000,
+    "image": "../imagenes/D_Q_NP_2X_801688-MLA100082615465_122025-R.webp"
   },
   {
     "id": "sofa-seccional-lino",
@@ -504,20 +547,29 @@
     "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=600&q=80"
   },
   {
-    "id": "muneca-moda",
+    "id": "figura-marvel-titan",
     "category": "Munecos",
-    "name": "Muñeca de moda con accesorios",
-    "brand": "Mattel",
-    "price": 99900,
-    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80"
+    "name": "Figura Marvel Titan Hero Series",
+    "brand": "Hasbro",
+    "price": 95990,
+    "image": "../imagenes/D_Q_NP_2X_840263-MLA28702968354_112018-R.webp",
+    "featured": true
   },
   {
-    "id": "peluche-suave",
+    "id": "barbie-dreamtopia",
     "category": "Munecos",
-    "name": "Peluche suave para regalar",
-    "brand": "Toyland",
-    "price": 69900,
-    "image": "https://images.unsplash.com/photo-1534723485860-8e42f9b39221?auto=format&fit=crop&w=600&q=80"
+    "name": "Barbie Dreamtopia Muñeca Con Unicornio Y Accesorios De Juego",
+    "brand": "Mattel",
+    "price": 175920,
+    "image": "../imagenes/D_Q_NP_2X_725247-.webp"
+  },
+  {
+    "id": "peluche-suave-spinmaster",
+    "category": "Munecos",
+    "name": "Peluche Mediano Suave Hipoalergénico",
+    "brand": "Spin Master",
+    "price": 76500,
+    "image": "https://images.unsplash.com/photo-1559454403-b8fb88521f11?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "conjunto-deportivo-infantil",
@@ -561,20 +613,29 @@
     "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=600&q=80"
   },
   {
-    "id": "zapatillas-running",
+    "id": "gafas-running-gw",
     "category": "Running",
-    "name": "Zapatillas para running",
-    "brand": "Asics",
-    "price": 349900,
-    "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80"
+    "name": "Gafas Ciclismo Running Gw Faster Color",
+    "brand": "GW",
+    "price": 103992,
+    "image": "../imagenes/D_Q_NP_2X_609881-MCO110798062825_042026-R.webp",
+    "featured": true
   },
   {
-    "id": "reloj-gps",
+    "id": "reloj-gps-garmin",
     "category": "Running",
-    "name": "Reloj GPS deportivo",
-    "brand": "Sport",
-    "price": 499900,
-    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=600&q=80"
+    "name": "Reloj GPS Forerunner Deporte",
+    "brand": "Garmin",
+    "price": 1169990,
+    "image": "../imagenes/D_Q_NP_2X_746876-MLA99963844493_112025-R.webp"
+  },
+  {
+    "id": "cangurera-running-asics",
+    "category": "Running",
+    "name": "Cangurera Running Con 2 Botellas De Regalo Porta Celular",
+    "brand": "Asics",
+    "price": 31757,
+    "image": "../imagenes/D_Q_NP_2X_927731-CBT117239190301_092026-R.webp"
   },
   {
     "id": "ipad-air",
@@ -618,19 +679,28 @@
     "image": "../imagenes/Gemini_Generated_Image_7tc3ae7tc3ae7tc3.jpg"
   },
   {
-    "id": "carro-control-remoto",
+    "id": "pista-caros-hotwheels",
     "category": "Vehiculos",
-    "name": "Carro a control remoto",
-    "brand": "Toyland",
-    "price": 89900,
-    "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80"
+    "name": "Pista De Juguete JKM88 Desafío De Salidas Hot Wheels",
+    "brand": "Hot Wheels",
+    "price": 125374,
+    "image": "../imagenes/D_Q_NP_2X_839462-MLA99757723612_122025-R.webp",
+    "featured": true
   },
   {
-    "id": "pista-carros",
+    "id": "carro-rc-maisto",
     "category": "Vehiculos",
-    "name": "Pista de carreras para carros",
-    "brand": "Toyland",
-    "price": 159900,
-    "image": "https://images.unsplash.com/photo-1581557991964-125469da3b8a?auto=format&fit=crop&w=600&q=80"
+    "name": "Carro A Control Remoto Rock Crawler, Maisto® +8 Color Naranja",
+    "brand": "Maisto",
+    "price": 104940,
+    "image": "../imagenes/D_Q_NP_2X_896435-MLA95596339077_102025-R.webp"
+  },
+  {
+    "id": "pack-carritos-matchbox",
+    "category": "Vehiculos",
+    "name": "Juego Clásico Surtido De 5 Piezas Matchbox A Escala 1/64 A E",
+    "brand": "Matchbox",
+    "price": 122882,
+    "image": "../imagenes/D_Q_NP_2X_789465-CBT115321366452_082026-R.webp"
   }
 ]
