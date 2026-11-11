@@ -50,21 +50,29 @@
     "image": "../imagenes/Gemini_Generated_Image_dibic2dibic2dibi.jpg"
   },
   {
-    "id": "piscina-inflable",
+    "id": "trampolin-jardin",
     "category": "AireLibre",
-    "name": "Piscina inflable familiar",
-    "brand": "Bestway",
-    "price": 289900,
-    "image": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=600&q=80",
+    "name": "Little Tikes Trampolín De 2 Metros Con Malla De Protección Lona De Salto Negro Cobertor De Resortes Azul",
+    "brand": "Little Tikes",
+    "price": 314930,
+    "image": "../imagenes/D_Q_NP_2X_682935-MLA91474898558_092025-R.webp",
     "featured": true
   },
   {
-    "id": "trampolin-jardin",
+    "id": "piscina-inflable-intex",
     "category": "AireLibre",
-    "name": "Trampolín de jardín con red",
-    "brand": "Outdoor",
-    "price": 899900,
-    "image": "https://images.unsplash.com/photo-1584620022709-a1b6351e233f?auto=format&fit=crop&w=600&q=80"
+    "name": "Piscina Sobre El Suelo Con Marco Rectangular Intex De 7 Pies Azul",
+    "brand": "Intex",
+    "price": 588509,
+    "image": "../imagenes/D_Q_NP_2X_608140-CBT113133553349_062026-R.webp"
+  },
+  {
+    "id": "lanzador-agua-nerf",
+    "category": "AireLibre",
+    "name": "Lanzador Nerf Super Soaker Pack Doble Piranha",
+    "brand": "Nerf",
+    "price": 53910,
+    "image": "../imagenes/D_Q_NP_2X_747614-MLA107242491345_022026-R.webp"
   },
   {
     "id": "blazer-slim-fit",
@@ -219,36 +227,52 @@
   {
     "id": "funko-animation",
     "category": "Coleccionables",
-    "name": "Figura coleccionable Funko Pop Animation",
+    "name": "Funko Pop! Animation: Naruto Shippuden - Itachi Uchiha #2173 Special Edition Exclusive",
     "brand": "Funko",
-    "price": 89900,
-    "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80",
+    "price": 94900,
+    "image": "../imagenes/D_Q_NP_2X_602309-MLA108761636343_032026-R.webp",
     "featured": true
   },
   {
     "id": "figura-bandai",
     "category": "Coleccionables",
-    "name": "Figura de colección Bandai",
+    "name": "Bandai Figuarts Zero Demon Slayer Kyojuro Rengoku",
     "brand": "Bandai",
-    "price": 179900,
-    "image": "https://images.unsplash.com/photo-1618336753974-aae8e04506aa?auto=format&fit=crop&w=600&q=80"
+    "price": 550000,
+    "image": "../imagenes/D_Q_NP_2X_803097-MLA96203925240_102025-R.webp"
+  },
+  {
+    "id": "figura-neca-tmnt",
+    "category": "Coleccionables",
+    "name": "Figura De Acción Tortuga Ninja Michelangelo 15 Cm",
+    "brand": "NECA",
+    "price": 52182,
+    "image": "../imagenes/D_Q_NP_2X_775470-CBT111104973631_052026-R.webp"
   },
   {
     "id": "manga-demon-slayer",
     "category": "Comics",
-    "name": "Manga Demon Slayer tomo 1",
-    "brand": "Panini",
-    "price": 49900,
+    "name": "Manga, Demon Slayer: Kimetsu No Yaiba Vol. 1 / Ivrea",
+    "brand": "Panini Manga",
+    "price": 67900,
     "image": "../imagenes/D_NQ_NP_743728-MLU43010512876_082020-O.webp",
     "featured": true
   },
   {
-    "id": "batman-novel",
+    "id": "batman-broma-asesina",
     "category": "Comics",
-    "name": "Novela gráfica Batman",
-    "brand": "DC Comics",
-    "price": 79900,
-    "image": "https://images.unsplash.com/photo-1534809027769-b00d750a6bac?auto=format&fit=crop&w=600&q=80"
+    "name": "Batman: La broma asesina - Edición Deluxe limitada en blanco y negro",
+    "brand": "ECC Cómics",
+    "price": 262880,
+    "image": "../imagenes/D_Q_NP_2X_949647-MLU70864032511_082023-R.webp"
+  },
+  {
+    "id": "manga-one-piece",
+    "category": "Comics",
+    "name": "Manga One Piece Ivrea Vol 01",
+    "brand": "Ivrea",
+    "price": 54900,
+    "image": "../imagenes/manga-one-piece-ivrea-vol-01.webp"
   },
   {
     "id": "macbook-air-m3-13",
@@ -328,18 +352,27 @@
   {
     "id": "lego-classic",
     "category": "Educativos",
-    "name": "Set de construcción LEGO Classic",
+    "name": "LEGO Classic Caja de Ladrillos Creativos",
     "brand": "LEGO",
-    "price": 159900,
-    "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=600&q=80"
+    "price": 159990,
+    "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=600&q=80",
+    "featured": true
   },
   {
-    "id": "kit-ciencia",
+    "id": "kit-ciencia-clementoni",
     "category": "Educativos",
-    "name": "Kit educativo de experimentos científicos",
-    "brand": "Educa",
-    "price": 99900,
-    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=600&q=80"
+    "name": "Juego Educativo Clementoni Laboratorio De Química 55082",
+    "brand": "Clementoni",
+    "price": 209900,
+    "image": "../imagenes/D_Q_NP_2X_762771-MLA99948525949_112025-R.webp"
+  },
+  {
+    "id": "gimnasio-fisher-price",
+    "category": "Educativos",
+    "name": "Fisher Price Dj Bouncy Salta Y Aprende Hjp93 Mattel",
+    "brand": "Fisher-Price",
+    "price": 519900,
+    "image": "../imagenes/D_Q_NP_2X_612078-MLU7.webp"
   },
   {
     "id": "freidora-aire-haceb",
@@ -369,18 +402,27 @@
   {
     "id": "cien-anos-soledad",
     "category": "Ficcion",
-    "name": "Cien años de soledad",
-    "brand": "Penguin Random House",
-    "price": 59900,
-    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80"
+    "name": "Cien Años De Soledad ilustrado Tapa Dura Gabriel Garcia Marquez",
+    "brand": "Diana",
+    "price": 117464,
+    "image": "../imagenes/D_Q_NP_2X_936233-MLU79128034851_092024-R.webp",
+    "featured": true
+  },
+  {
+    "id": "la-sombra-del-viento",
+    "category": "Ficcion",
+    "name": "La Sombra Del Viento - Carlos Ruiz Zafón - Planeta - Novela",
+    "brand": "Planeta",
+    "price": 35400,
+    "image": "../imagenes/D_Q_NP_2X_662419-MCO86476249599_062025-R.webp"
   },
   {
     "id": "1984-orwell",
     "category": "Ficcion",
-    "name": "1984 de George Orwell",
-    "brand": "Penguin Random House",
-    "price": 44900,
-    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80"
+    "name": "1984 - George Orwell (Tapa Blanda)",
+    "brand": "Debolsillo",
+    "price": 57615,
+    "image": "../imagenes/D_Q_NP_2X_704916-MCO45110785739_032021-R.webp"
   },
   {
     "id": "tapete-yoga",
@@ -456,20 +498,29 @@
     "image": "../imagenes/images (2).jpg"
   },
   {
-    "id": "libro-texturas",
+    "id": "libro-cuentos-dormir",
     "category": "Infantiles",
-    "name": "Libro infantil de texturas",
-    "brand": "Educa",
-    "price": 39900,
-    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=600&q=80"
+    "name": "Libro 365 Cuentos Para Dormir (ilustrados)",
+    "brand": "Susaeta",
+    "price": 129315,
+    "image": "../imagenes/D_Q_NP_2X_958948-MCO90898874086_082025-R.webp",
+    "featured": true
   },
   {
-    "id": "libro-pop-up",
+    "id": "el-principito-lexus",
     "category": "Infantiles",
-    "name": "Libro infantil pop-up",
-    "brand": "Educa",
-    "price": 54900,
-    "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80"
+    "name": "El Principito: N/a, De Lexus. N/a, Vol. 1. Editorial Lexus Editores, Tapa Dura En Español, 2024",
+    "brand": "Catapulta",
+    "price": 59000,
+    "image": "../imagenes/D_Q_NP_2X_757898-MLA90918407412_082025-R.webp"
+  },
+  {
+    "id": "libro-primeros-animales",
+    "category": "Infantiles",
+    "name": "Editorial Mis Primeros Animales: Libro",
+    "brand": "Panamericana",
+    "price": 36500,
+    "image": "../imagenes/D_Q_NP_2X_819836-MCO118333739342_102026-R.webp"
   },
   {
     "id": "cortacesped-electrico",
@@ -597,20 +648,29 @@
     "image": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=600&q=80"
   },
   {
-    "id": "habitos-atomicos",
-    "category": "Noficcion",
-    "name": "Hábitos atómicos",
-    "brand": "Planeta",
-    "price": 69900,
-    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=600&q=80"
-  },
-  {
     "id": "sapiens",
     "category": "Noficcion",
-    "name": "Sapiens: De animales a dioses",
+    "name": "Sapiens. De Animales A Dioses, De Yuval Noah Harari. Editorial Debate, Tapa Dura En Español",
     "brand": "Debate",
-    "price": 89900,
-    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=600&q=80"
+    "price": 106930,
+    "image": "../imagenes/30b8d6d3e61e5433b71adf057be614d7.webp",
+    "featured": true
+  },
+  {
+    "id": "habitos-atomicos",
+    "category": "Noficcion",
+    "name": "Hábitos Atómicos Edición Especial Tapa dura James Clear",
+    "brand": "Paidós",
+    "price": 98000,
+    "image": "../imagenes/04ff3ab661bfe2a05ab2ac69125c8a3e.webp"
+  },
+  {
+    "id": "psicologia-del-dinero",
+    "category": "Noficcion",
+    "name": "La Psicología del Dinero - Morgan Housel",
+    "brand": "Empresa Activa",
+    "price": 60000,
+    "image": "../imagenes/D_Q_NP_2X_877402-MCO113866436477_062026-R.webp"
   },
   {
     "id": "gafas-running-gw",
